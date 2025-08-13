@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+html{
+    scroll-behavior: smooth;
+    @apply  bg-gray-950
+}
+/* Navbar */
+.navbar {
+    @apply  flex  justify-between items-center bg-gray-950 p-3;
+  }
+
+.logo{
+    margin-bottom: 10px;
+    height:50px;
+}
+
+.nav-items{
+    @apply text-white text-2xl flex items-center font-semibold  gap-2
+}
+.nav-list-items{
+    @apply hidden md:flex justify-around items-center text-white font-semibold gap-x-[5vw] 
+
+}
+.mobile-menu {
+    @apply flex flex-col gap-4 text-center text-white text-lg mt-2 bg-black md:hidden z-40 w-48 ml-auto p-4 rounded-lg;
+  }
+
+  /* Home */
+
+  .home{
+    @apply  flex flex-col md:flex-row  md:place-content-center items-center md:h-svh 
+  }
+
+  .image{
+   @apply w-56 h-56 md:w-72 md:h-72 object-cover rounded-full shadow-lg border-4 md:mx-3 my-3  m-auto md:w-2/5
+  }
+ 
+  .discription{
+      @apply w-3/5
+  }
+
+  /* about */
+
+  p{
+    @apply font-serif
+  }
+
+
+  
+  
+  
