@@ -8,21 +8,21 @@ function Projects() {
         description:
           "A MERN full-stack Hospital Management System with separate logins for doctors, nurses, and patients, providing secure access to patient details",
         image:hms,
-        link: "#",
+        link: "https://github.com/Logeshwaran-M/HOSPITAL-NANAGEMENET-SYSTEM",
       },
       {
         title: "Portfolio Website",
         description:
           "A personal portfolio website built with React and Tailwind CSS, showcasing projects and skills.",
         image:port,
-        link: "#",
+        link: "https://github.com/Logeshwaran-M/portfolio",
       },
       {
         title: "E-Commerce App",
         description:
           "Full-stack MERN e-commerce application with user authentication, product management, and payment integration.",
         image: ecom,
-        link: "#",
+        link:"https://github.com/Logeshwaran-M/E-commerce",
       }
      
     ];
